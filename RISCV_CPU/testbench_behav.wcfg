@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_bram_ctrl_funcs" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="testbench" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="15340000001fs"></ZoomEndTime>
+      <Cursor1Time time="2160000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="181"></NameColumnWidth>
+      <ValueColumnWidth column_width="67"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/testbench/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/RSTn" type="logic">
+      <obj_property name="ElementShortName">RSTn</obj_property>
+      <obj_property name="ObjectShortName">RSTn</obj_property>
+   </wvobject>
+   <wvobject fp_name="group110" type="group">
+      <obj_property name="label">PCC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/PCC/PC" type="array">
+         <obj_property name="ElementShortName">PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/PCC/next_PC" type="array">
+         <obj_property name="ElementShortName">next_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">next_PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/PCC/EXE2IF_j_sig" type="logic">
+         <obj_property name="ElementShortName">EXE2IF_j_sig</obj_property>
+         <obj_property name="ObjectShortName">EXE2IF_j_sig</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/PCC/EXE2IF_j_PC" type="array">
+         <obj_property name="ElementShortName">EXE2IF_j_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE2IF_j_PC[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group172" type="group">
+      <obj_property name="label">DC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/DC/PC" type="array">
+         <obj_property name="ElementShortName">PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/DC/INST" type="array">
+         <obj_property name="ElementShortName">INST[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INST[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/DC/DC2REG_idx0" type="array">
+         <obj_property name="ElementShortName">DC2REG_idx0[4:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2REG_idx0[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/DC/DC2REG_idx1" type="array">
+         <obj_property name="ElementShortName">DC2REG_idx1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2REG_idx1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/DC/DC2EXE_OP0" type="array">
+         <obj_property name="ElementShortName">DC2EXE_OP0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_OP0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/DC/DC2EXE_OP1" type="array">
+         <obj_property name="ElementShortName">DC2EXE_OP1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_OP1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/DC/DC2EXE_store_data" type="array">
+         <obj_property name="ElementShortName">DC2EXE_store_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_store_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/DC/DC2EXE_result_idx" type="array">
+         <obj_property name="ElementShortName">DC2EXE_result_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_result_idx[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group202" type="group">
+      <obj_property name="label">EXE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/DC2EXE_info" type="array">
+         <obj_property name="ElementShortName">DC2EXE_info[14:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_info[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/DC2EXE_OP0" type="array">
+         <obj_property name="ElementShortName">DC2EXE_OP0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_OP0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/DC2EXE_OP1" type="array">
+         <obj_property name="ElementShortName">DC2EXE_OP1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_OP1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/DC2EXE_PC" type="array">
+         <obj_property name="ElementShortName">DC2EXE_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/DC2EXE_PC_offset0" type="array">
+         <obj_property name="ElementShortName">DC2EXE_PC_offset0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_PC_offset0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/DC2EXE_PC_offset1" type="array">
+         <obj_property name="ElementShortName">DC2EXE_PC_offset1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_PC_offset1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/DC2EXE_store_data" type="array">
+         <obj_property name="ElementShortName">DC2EXE_store_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_store_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/DC2EXE_result_idx" type="array">
+         <obj_property name="ElementShortName">DC2EXE_result_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">DC2EXE_result_idx[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/EXE2MEM_info" type="array">
+         <obj_property name="ElementShortName">EXE2MEM_info[6:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE2MEM_info[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/EXE2MEM_result" type="array">
+         <obj_property name="ElementShortName">EXE2MEM_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE2MEM_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/EXE2MEM_result_idx" type="array">
+         <obj_property name="ElementShortName">EXE2MEM_result_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE2MEM_result_idx[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/EXE2MEM_store_data" type="array">
+         <obj_property name="ElementShortName">EXE2MEM_store_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE2MEM_store_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/JUMPType" type="array">
+         <obj_property name="ElementShortName">JUMPType[3:0]</obj_property>
+         <obj_property name="ObjectShortName">JUMPType[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/COMType" type="array">
+         <obj_property name="ElementShortName">COMType[3:0]</obj_property>
+         <obj_property name="ObjectShortName">COMType[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/EXE2IF_j_sig" type="logic">
+         <obj_property name="ElementShortName">EXE2IF_j_sig</obj_property>
+         <obj_property name="ObjectShortName">EXE2IF_j_sig</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/EXE2IF_j_PC" type="array">
+         <obj_property name="ElementShortName">EXE2IF_j_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE2IF_j_PC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/jal_jpc" type="array">
+         <obj_property name="ElementShortName">jal_jpc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">jal_jpc[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/jalr_jpc" type="array">
+         <obj_property name="ElementShortName">jalr_jpc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">jalr_jpc[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group203" type="group">
+      <obj_property name="label">EXE_RESULT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/add_result" type="array">
+         <obj_property name="ElementShortName">add_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">add_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/sub_result" type="array">
+         <obj_property name="ElementShortName">sub_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sub_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/slt_result" type="array">
+         <obj_property name="ElementShortName">slt_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">slt_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/sltu_result" type="array">
+         <obj_property name="ElementShortName">sltu_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sltu_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/and_result" type="array">
+         <obj_property name="ElementShortName">and_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">and_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/or_result" type="array">
+         <obj_property name="ElementShortName">or_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">or_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/xor_result" type="array">
+         <obj_property name="ElementShortName">xor_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">xor_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/sll_result" type="array">
+         <obj_property name="ElementShortName">sll_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sll_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/srl_result" type="array">
+         <obj_property name="ElementShortName">srl_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">srl_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/sra_result" type="array">
+         <obj_property name="ElementShortName">sra_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">sra_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/beq_bne_result" type="logic">
+         <obj_property name="ElementShortName">beq_bne_result</obj_property>
+         <obj_property name="ObjectShortName">beq_bne_result</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/usigned_sub" type="array">
+         <obj_property name="ElementShortName">usigned_sub[31:0]</obj_property>
+         <obj_property name="ObjectShortName">usigned_sub[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/EXE/signed_less" type="logic">
+         <obj_property name="ElementShortName">signed_less</obj_property>
+         <obj_property name="ObjectShortName">signed_less</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group214" type="group">
+      <obj_property name="label">MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/MEM/EXE2MEM_info" type="array">
+         <obj_property name="ElementShortName">EXE2MEM_info[6:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE2MEM_info[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/MEM/EXE2MEM_result" type="array">
+         <obj_property name="ElementShortName">EXE2MEM_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE2MEM_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/MEM/EXE2MEM_result_idx" type="array">
+         <obj_property name="ElementShortName">EXE2MEM_result_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE2MEM_result_idx[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/MEM/EXE2MEM_store_data" type="array">
+         <obj_property name="ElementShortName">EXE2MEM_store_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE2MEM_store_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/MEM/MEM2DR_addr" type="array">
+         <obj_property name="ElementShortName">MEM2DR_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM2DR_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/MEM/MEM2DR_dw" type="array">
+         <obj_property name="ElementShortName">MEM2DR_dw[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM2DR_dw[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/MEM/MEM2DR_wea" type="array">
+         <obj_property name="ElementShortName">MEM2DR_wea[3:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM2DR_wea[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/MEM/MEM2WB_info" type="array">
+         <obj_property name="ElementShortName">MEM2WB_info[2:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM2WB_info[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/MEM/MEM2WB_result" type="array">
+         <obj_property name="ElementShortName">MEM2WB_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM2WB_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/MEM/MEM2WB_result_idx" type="array">
+         <obj_property name="ElementShortName">MEM2WB_result_idx[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM2WB_result_idx[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group225" type="group">
+      <obj_property name="label">WB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/WB/MEM2WB_info" type="array">
+         <obj_property name="ElementShortName">MEM2WB_info[2:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM2WB_info[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/WB/DR2WB_dr" type="array">
+         <obj_property name="ElementShortName">DR2WB_dr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DR2WB_dr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/WB/DR2WB_ior" type="array">
+         <obj_property name="ElementShortName">DR2WB_ior[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DR2WB_ior[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/WB/DR2WB_io_sig" type="logic">
+         <obj_property name="ElementShortName">DR2WB_io_sig</obj_property>
+         <obj_property name="ObjectShortName">DR2WB_io_sig</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/WB/MEM2WB_result" type="array">
+         <obj_property name="ElementShortName">MEM2WB_result[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM2WB_result[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/WB/MEM2WB_result_idx" type="array">
+         <obj_property name="ElementShortName">MEM2WB_result_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM2WB_result_idx[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/WB/WB2REG_wb_data" type="array">
+         <obj_property name="ElementShortName">WB2REG_wb_data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WB2REG_wb_data[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/WB/WB2REG_wb_idx" type="array">
+         <obj_property name="ElementShortName">WB2REG_wb_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WB2REG_wb_idx[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/WB/WB2REG_wea" type="logic">
+         <obj_property name="ElementShortName">WB2REG_wea</obj_property>
+         <obj_property name="ObjectShortName">WB2REG_wea</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/WB/DR2WBTemp" type="array">
+         <obj_property name="ElementShortName">DR2WBTemp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DR2WBTemp[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group238" type="group">
+      <obj_property name="label">PIPE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/DC_OP0_idx" type="array">
+         <obj_property name="ElementShortName">DC_OP0_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">DC_OP0_idx[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/DC_OP1_idx" type="array">
+         <obj_property name="ElementShortName">DC_OP1_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">DC_OP1_idx[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/EXE_result_idx" type="array">
+         <obj_property name="ElementShortName">EXE_result_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE_result_idx[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/MEM_result_idx" type="array">
+         <obj_property name="ElementShortName">MEM_result_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_result_idx[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/WB_result_idx" type="array">
+         <obj_property name="ElementShortName">WB_result_idx[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WB_result_idx[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/DC_jtype" type="array">
+         <obj_property name="ElementShortName">DC_jtype[3:0]</obj_property>
+         <obj_property name="ObjectShortName">DC_jtype[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/EXE_jtype" type="array">
+         <obj_property name="ElementShortName">EXE_jtype[3:0]</obj_property>
+         <obj_property name="ObjectShortName">EXE_jtype[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/RAW_block" type="logic">
+         <obj_property name="ElementShortName">RAW_block</obj_property>
+         <obj_property name="ObjectShortName">RAW_block</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/J_block" type="logic">
+         <obj_property name="ElementShortName">J_block</obj_property>
+         <obj_property name="ObjectShortName">J_block</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/EXE_flag" type="logic">
+         <obj_property name="ElementShortName">EXE_flag</obj_property>
+         <obj_property name="ObjectShortName">EXE_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/MEM_flag" type="logic">
+         <obj_property name="ElementShortName">MEM_flag</obj_property>
+         <obj_property name="ObjectShortName">MEM_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/pipe_control/WB_flag" type="logic">
+         <obj_property name="ElementShortName">WB_flag</obj_property>
+         <obj_property name="ObjectShortName">WB_flag</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/testbench/Tw/TOP_i/CPU_0/inst/REG_FILE/regfile" type="array">
+      <obj_property name="ElementShortName">regfile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regfile[31:0][31:0]</obj_property>
+   </wvobject>
+</wave_config>

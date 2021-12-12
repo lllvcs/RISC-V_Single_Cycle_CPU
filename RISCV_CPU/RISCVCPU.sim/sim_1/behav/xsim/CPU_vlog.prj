@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../RISCVCPU.srcs/sources_1/bd/TOP/ipshared/ec67/hdl" --include "../../../../RISCVCPU.srcs/sources_1/bd/TOP/ipshared/02c8/hdl/verilog" --include "../../../../RISCVCPU.srcs/sources_1/bd/TOP/ipshared/1313/hdl" --include "../../../../RISCVCPU.srcs/sources_1/bd/TOP/ipshared/e2dd/hdl/verilog" --include "D:/P_E/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/DC.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/EXE.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/MEM.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/MUX16.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/MUX8.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/PCC.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/REG_FILE.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/REG_HE.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/REG_HE_PC.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/WB.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/_MUX16.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/_MUX8.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/pipe_control.v" \
+"../../../../RISCVCPU.srcs/sources_1/imports/new/CPU.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

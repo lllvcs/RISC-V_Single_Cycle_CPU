@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# 
+# Start of session at: Wed Dec  8 17:01:21 2021
+# Process ID: 42352
+# Current directory: D:/P_E/Xilinx/Project/RISCVCPU/RISCVCPU.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/P_E/Xilinx/Project/RISCVCPU/RISCVCPU.sdk/webtalk/webtalk.log
+# Journal file: D:/P_E/Xilinx/Project/RISCVCPU/RISCVCPU.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
